@@ -55,6 +55,12 @@ module.exports = {
     'comma-dangle': 0,
     'max-len': 0,
     'import/extensions': 0,
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['./*.js'],
+      },
+    ],
     'no-underscore-dangle': 0,
     'consistent-return': 0,
     'no-shadow': [
