@@ -1,13 +1,17 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
 const configs = [
   {
-    name: ".eslintrc.js",
+    name: '.eslintrc.js',
     content: "module.exports = {extends: '@rellafella'}",
   },
   {
-    name: "stylelint.config.js",
+    name: '.prettier.config.js',
+    content: "module.exports = {extends: '@rellafella/prettier.config.js'}",
+  },
+  {
+    name: 'stylelint.config.js',
     content:
       "module.exports = {extends: '@rellafella/eslint-config/stylelint.config.js',ignoreFiles: ['./vendor/**/*']};",
   },
