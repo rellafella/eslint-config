@@ -8,7 +8,7 @@ const configs = [
   },
   {
     name: 'prettier.config.js',
-    content: "module.exports = {extends: '@rellafella/prettier.config.js'}",
+    content: "require('@rellafella/eslint-config/prettier.config')",
   },
   {
     name: 'stylelint.config.js',
