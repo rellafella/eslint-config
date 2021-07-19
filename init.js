@@ -7,7 +7,7 @@ const configs = [
     content: "module.exports = {extends: '@rellafella'}",
   },
   {
-    name: '.prettier.config.js',
+    name: 'prettier.config.js',
     content: "module.exports = {extends: '@rellafella/prettier.config.js'}",
   },
   {
